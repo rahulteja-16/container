@@ -1,12 +1,11 @@
+import { staticText } from '../../Constants/Static'
 import { EmailWrapper, Link, Position } from './style'
 
 const EmailConnect = () => {
 	return (
 		<EmailWrapper>
 			<Position>
-				<Link href="mailto:rahulteja.a@hotmail.com">
-					rahulteja.a@hotmail.com
-				</Link>
+				<Link href={staticText.EMAIL_TO}>{staticText.EMAIL}</Link>
 			</Position>
 		</EmailWrapper>
 	)

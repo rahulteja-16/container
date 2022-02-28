@@ -1,10 +1,11 @@
+import { staticText } from '../../Constants/Static'
 import { FooterWrapper, TextPosition } from './style'
 
 const Footer = () => {
 	return (
 		<FooterWrapper>
 			<TextPosition>
-				<div>Designed & Built by Rahul Teja</div>
+				<div>{staticText.FOOTER_INFO}</div>
 			</TextPosition>
 		</FooterWrapper>
 	)

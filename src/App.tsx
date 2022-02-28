@@ -1,4 +1,4 @@
-import Container from './Exposed/Contianer'
+import Container from './Exposed/Container'
 
 const App = () => {
 	return (

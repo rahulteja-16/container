@@ -1,0 +1,15 @@
+export const staticText = {
+	EMAIL_TO: 'mailto:rahulteja.a@hotmail.com',
+	EMAIL: 'rahulteja.a@hotmail.com',
+	FOOTER_INFO: 'Designed & Built by Rahul Teja',
+	NAME_LOGO_ALT: 'Name Logo',
+	RESUME: 'Resume',
+	GITHUB: 'GitHub',
+	GITHUB_LINK: 'https://github.com/rahulteja-dev',
+	INSTA: 'Instagram',
+	INSTA_LINK: 'https://www.instagram.com/rahulteja16/',
+	LINKEDIN: 'LinkedIn',
+	LINKEDIN_LINK: 'https://www.linkedin.com/in/rahulteja/',
+	TWITTER: 'Twitter',
+	TWITTER_LINK: 'https://twitter.com/rahultejadev',
+}

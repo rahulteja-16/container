@@ -9,6 +9,7 @@ import {
 } from './style'
 import NameLogo from '../../Assets/name.png'
 import Button from '../Button'
+import { staticText } from '../../Constants/Static'
 
 interface HeaderProps {
 	label: string
@@ -20,12 +21,12 @@ const Header = ({ label }: HeaderProps) => {
 			<Nav>
 				<LogoWrapper>
 					<Anchor>
-						<ImageWrapper src={NameLogo} alt="Name Logo" />
+						<ImageWrapper src={NameLogo} alt={staticText.NAME_LOGO_ALT} />
 					</Anchor>
 					<Label>{label}</Label>
 				</LogoWrapper>
 				<ActionsWrapper>
-					<Button>Resume</Button>
+					<Button>{staticText.RESUME}</Button>
 				</ActionsWrapper>
 			</Nav>
 		</HeaderWrapper>

@@ -1,3 +1,4 @@
+import { staticText } from '../../Constants/Static'
 import GitHubIcon from '../Icons/GithubIcon'
 import InstaIcon from '../Icons/InstaIcon'
 import LinkedIcon from '../Icons/LinkedInIcon'
@@ -11,7 +12,7 @@ const SocialConnect = () => {
 				<li>
 					<Link
 						target="_blank"
-						href="https://github.com/rahulteja-dev"
+						href={staticText.GITHUB_LINK}
 						rel="noreferrer"
 					>
 						<GitHubIcon />
@@ -20,7 +21,7 @@ const SocialConnect = () => {
 				<li>
 					<Link
 						target="_blank"
-						href="https://www.linkedin.com/in/rahulteja/"
+						href={staticText.LINKEDIN_LINK}
 						rel="noreferrer"
 					>
 						<LinkedIcon />
@@ -29,7 +30,7 @@ const SocialConnect = () => {
 				<li>
 					<Link
 						target="_blank"
-						href="https://twitter.com/rahultejadev"
+						href={staticText.TWITTER_LINK}
 						rel="noreferrer"
 					>
 						<TwitterIcon />
@@ -38,7 +39,7 @@ const SocialConnect = () => {
 				<li>
 					<Link
 						target="_blank"
-						href="https://www.instagram.com/rahulteja16/"
+						href={staticText.INSTA_LINK}
 						rel="noreferrer"
 					>
 						<InstaIcon />
