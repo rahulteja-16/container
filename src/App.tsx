@@ -1,10 +1,9 @@
-import './styles.css'
+import Container from './Exposed/Contianer'
 
 const App = () => {
 	return (
 		<>
-			<h1>React Boiler Plate</h1>
-			<div>Update Package.json and index.html file.!!</div>
+			<Container label="Rahul Teja">Working</Container>
 		</>
 	)
 }
