@@ -46,10 +46,10 @@ const getWPConfig = (env) => {
 				template: path.resolve(__dirname, '..', './src/index.html'),
 			}),
 			new ModuleFederationPlugin({
-				name: 'container',
-				filename: 'container.js',
+				name: 'appcontainer',
+				filename: 'appcontainer.js',
 				exposes: {
-					'./Container': './src/Exposed/Container',
+					'./AppContainer': './src/Exposed/Container/index.tsx',
 				},
 				shared: {
 					react: {
@@ -59,6 +59,10 @@ const getWPConfig = (env) => {
 					'react-dom': {
 						singleton: true,
 						requiredVersion: deps['react-dom'],
+					},
+					'styled-components': {
+						singleton: true,
+						requiredVersion: deps['styled-components'],
 					},
 				},
 			}),
