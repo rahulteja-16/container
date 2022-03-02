@@ -38,7 +38,7 @@ const getWPConfig = (env) => {
 		output: {
 			publicPath:
 				env === 'dev'
-					? 'http://localhost:3000/'
+					? 'http://localhost:3001/'
 					: 'https://container.rahulteja.dev/',
 		},
 		plugins: [
