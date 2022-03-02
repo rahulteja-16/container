@@ -48,6 +48,12 @@ const getWPConfig = (env) => {
 			new ModuleFederationPlugin({
 				name: 'appcontainer',
 				filename: 'appcontainer.js',
+				remotes: {
+					componentLibrary:
+						env === 'dev'
+							? 'componentLibrary@http://localhost:3000/componentLibrary.js'
+							: 'componentLibrary@https://library.rahulteja.dev/componentLibrary.js',
+				},
 				exposes: {
 					'./AppContainer': './src/Exposed/Container/index.tsx',
 				},
