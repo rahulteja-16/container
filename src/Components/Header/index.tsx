@@ -6,19 +6,15 @@ import {
 	LogoWrapper,
 	ImageWrapper,
 	ActionsWrapper,
-	Label,
 } from './style'
 import NameLogo from '../../Assets/name.png'
 // import Button from '../Button'
 // eslint-disable-next-line import/no-unresolved
 const Button = React.lazy(() => import('componentLibrary/Button'))
 import { staticText } from '../../Constants/Static'
+import SocialConnect from '../SocialConnect'
 
-interface HeaderProps {
-	label: string
-}
-
-const Header = ({ label }: HeaderProps) => {
+const Header = () => {
 	return (
 		<React.Suspense fallback="Loading...">
 			<HeaderWrapper>
@@ -30,7 +26,7 @@ const Header = ({ label }: HeaderProps) => {
 								alt={staticText.NAME_LOGO_ALT}
 							/>
 						</Anchor>
-						<Label>{label}</Label>
+						<SocialConnect />
 					</LogoWrapper>
 					<ActionsWrapper>
 						<Button>{staticText.RESUME}</Button>

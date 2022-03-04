@@ -4,8 +4,7 @@ export const EmailWrapper = styled.div`
 	width: 40px;
 	position: fixed;
 	bottom: 0px;
-	left: auto;
-	right: 40px;
+	left: 50px;
 	z-index: 10;
 	color: var(--gray-300);
 `

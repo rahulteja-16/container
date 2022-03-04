@@ -5,5 +5,5 @@ export const MainSection = styled.main`
 	width: 100%;
 	max-width: 1600px;
 	min-height: 100vh;
-	padding: 0px 150px;
+	padding: 0px 50px;
 `

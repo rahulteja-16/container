@@ -43,15 +43,6 @@ export const Anchor = styled.a`
 	position: relative;
 `
 
-export const Label = styled.span`
-	font-size: 24px;
-	text-transform: uppercase;
-	color: var(--gray-400);
-	letter-spacing: 1.4px;
-	font-family: var(--font-mono);
-	line-height: 1;
-`
-
 export const ImageWrapper = styled.img`
 	width: 100%;
 	vertical-align: middle;

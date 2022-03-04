@@ -3,11 +3,10 @@ import styled from 'styled-components'
 export const ConnectWrapper = styled.div`
 	width: 40px;
 	position: fixed;
-	bottom: 0px;
-	left: 40px;
-	right: auto;
+	left: 260px;
 	z-index: 10;
 	color: var(--grey-300);
+	transform: rotate(90deg);
 `
 
 export const SocialList = styled.ul`
@@ -27,6 +26,10 @@ export const SocialList = styled.ul`
 		margin: 0px auto;
 		background-color: var(--gray-300);
 	}
+`
+
+export const LI = styled.li`
+	transform: rotate(270deg);
 `
 
 export const Link = styled.a`

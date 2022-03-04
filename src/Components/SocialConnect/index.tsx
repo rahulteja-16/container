@@ -3,13 +3,13 @@ import GitHubIcon from '../Icons/GithubIcon'
 import InstaIcon from '../Icons/InstaIcon'
 import LinkedIcon from '../Icons/LinkedInIcon'
 import TwitterIcon from '../Icons/TwitterIcon'
-import { ConnectWrapper, Link, SocialList } from './style'
+import { ConnectWrapper, LI, Link, SocialList } from './style'
 
 const SocialConnect = () => {
 	return (
 		<ConnectWrapper>
 			<SocialList>
-				<li>
+				<LI>
 					<Link
 						target="_blank"
 						href={staticText.GITHUB_LINK}
@@ -17,8 +17,8 @@ const SocialConnect = () => {
 					>
 						<GitHubIcon />
 					</Link>
-				</li>
-				<li>
+				</LI>
+				<LI>
 					<Link
 						target="_blank"
 						href={staticText.LINKEDIN_LINK}
@@ -26,8 +26,8 @@ const SocialConnect = () => {
 					>
 						<LinkedIcon />
 					</Link>
-				</li>
-				<li>
+				</LI>
+				<LI>
 					<Link
 						target="_blank"
 						href={staticText.TWITTER_LINK}
@@ -35,8 +35,8 @@ const SocialConnect = () => {
 					>
 						<TwitterIcon />
 					</Link>
-				</li>
-				<li>
+				</LI>
+				<LI>
 					<Link
 						target="_blank"
 						href={staticText.INSTA_LINK}
@@ -44,7 +44,7 @@ const SocialConnect = () => {
 					>
 						<InstaIcon />
 					</Link>
-				</li>
+				</LI>
 			</SocialList>
 		</ConnectWrapper>
 	)
