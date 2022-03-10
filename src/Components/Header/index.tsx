@@ -8,7 +8,7 @@ import {
 	ActionsWrapper,
 } from './style'
 import NameLogo from '../../Assets/name.png'
-// import Button from '../Button'
+
 // eslint-disable-next-line import/no-unresolved
 const Button = React.lazy(() => import('componentLibrary/Button'))
 import { staticText } from '../../Constants/Static'
